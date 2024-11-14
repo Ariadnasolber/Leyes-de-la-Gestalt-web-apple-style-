@@ -1,0 +1,88 @@
+/* Importar una fuente similar a SF Pro Display */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+
+body {
+    font-family: "Inter", -apple-system, "Segoe UI", "Roboto", "Helvetica",
+        "Arial", sans-serif;
+    line-height: 1.47059;
+    font-weight: 400;
+    color: #1d1d1f;
+    background-color: #f5f5f6;
+}
+.gestalt-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8) !important; /* declaración especial en CSS que se utiliza para dar la máxima prioridad a una regla de estilo específica */
+    backdrop-filter: blur(100px);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #1d1d20 !important;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #686868 !important;
+    cursor: pointer;
+}
+
+.parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d1d1f;
+    text-shadow: none;
+    margin-top: 50px;
+}
+
+.section-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    margin-bottom: 20px;
+}
+
+.section-content p {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: 0.011em;
+    color: #1d1d1f;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #f5f5f7;
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    padding: 20px 0;
+}
